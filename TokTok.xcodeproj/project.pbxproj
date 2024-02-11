@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC2B73D52B791C6D00C83756 /* TokTokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B73D42B791C6D00C83756 /* TokTokApp.swift */; };
+		CC2B73D72B791C6D00C83756 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B73D62B791C6D00C83756 /* ContentView.swift */; };
+		CC2B73D92B791C6E00C83756 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2B73D82B791C6E00C83756 /* Assets.xcassets */; };
+		CC2B73DC2B791C6E00C83756 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC2B73DB2B791C6E00C83756 /* Preview Assets.xcassets */; };
+		CC2B73E62B791C6E00C83756 /* TokTokTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B73E52B791C6E00C83756 /* TokTokTests.swift */; };
+		CC2B73F02B791C6E00C83756 /* TokTokUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B73EF2B791C6E00C83756 /* TokTokUITests.swift */; };
+		CC2B73F22B791C6E00C83756 /* TokTokUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC2B73F12B791C6E00C83756 /* TokTokUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC2B73E22B791C6E00C83756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2B73C92B791C6D00C83756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B73D02B791C6D00C83756;
+			remoteInfo = TokTok;
+		};
+		CC2B73EC2B791C6E00C83756 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC2B73C92B791C6D00C83756 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC2B73D02B791C6D00C83756;
+			remoteInfo = TokTok;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC2B73D12B791C6D00C83756 /* TokTok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TokTok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B73D42B791C6D00C83756 /* TokTokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokApp.swift; sourceTree = "<group>"; };
+		CC2B73D62B791C6D00C83756 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CC2B73D82B791C6E00C83756 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC2B73DB2B791C6E00C83756 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC2B73E12B791C6E00C83756 /* TokTokTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokTokTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B73E52B791C6E00C83756 /* TokTokTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokTests.swift; sourceTree = "<group>"; };
+		CC2B73EB2B791C6E00C83756 /* TokTokUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TokTokUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC2B73EF2B791C6E00C83756 /* TokTokUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokUITests.swift; sourceTree = "<group>"; };
+		CC2B73F12B791C6E00C83756 /* TokTokUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokTokUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC2B73CE2B791C6D00C83756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B73DE2B791C6E00C83756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B73E82B791C6E00C83756 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC2B73C82B791C6D00C83756 = {
+			isa = PBXGroup;
+			children = (
+				CC2B73D32B791C6D00C83756 /* TokTok */,
+				CC2B73E42B791C6E00C83756 /* TokTokTests */,
+				CC2B73EE2B791C6E00C83756 /* TokTokUITests */,
+				CC2B73D22B791C6D00C83756 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC2B73D22B791C6D00C83756 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B73D12B791C6D00C83756 /* TokTok.app */,
+				CC2B73E12B791C6E00C83756 /* TokTokTests.xctest */,
+				CC2B73EB2B791C6E00C83756 /* TokTokUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC2B73D32B791C6D00C83756 /* TokTok */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B73D42B791C6D00C83756 /* TokTokApp.swift */,
+				CC2B73D62B791C6D00C83756 /* ContentView.swift */,
+				CC2B73D82B791C6E00C83756 /* Assets.xcassets */,
+				CC2B73DA2B791C6E00C83756 /* Preview Content */,
+			);
+			path = TokTok;
+			sourceTree = "<group>";
+		};
+		CC2B73DA2B791C6E00C83756 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B73DB2B791C6E00C83756 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC2B73E42B791C6E00C83756 /* TokTokTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B73E52B791C6E00C83756 /* TokTokTests.swift */,
+			);
+			path = TokTokTests;
+			sourceTree = "<group>";
+		};
+		CC2B73EE2B791C6E00C83756 /* TokTokUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC2B73EF2B791C6E00C83756 /* TokTokUITests.swift */,
+				CC2B73F12B791C6E00C83756 /* TokTokUITestsLaunchTests.swift */,
+			);
+			path = TokTokUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC2B73D02B791C6D00C83756 /* TokTok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2B73F52B791C6E00C83756 /* Build configuration list for PBXNativeTarget "TokTok" */;
+			buildPhases = (
+				CC2B73CD2B791C6D00C83756 /* Sources */,
+				CC2B73CE2B791C6D00C83756 /* Frameworks */,
+				CC2B73CF2B791C6D00C83756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TokTok;
+			productName = TokTok;
+			productReference = CC2B73D12B791C6D00C83756 /* TokTok.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC2B73E02B791C6E00C83756 /* TokTokTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2B73F82B791C6E00C83756 /* Build configuration list for PBXNativeTarget "TokTokTests" */;
+			buildPhases = (
+				CC2B73DD2B791C6E00C83756 /* Sources */,
+				CC2B73DE2B791C6E00C83756 /* Frameworks */,
+				CC2B73DF2B791C6E00C83756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2B73E32B791C6E00C83756 /* PBXTargetDependency */,
+			);
+			name = TokTokTests;
+			productName = TokTokTests;
+			productReference = CC2B73E12B791C6E00C83756 /* TokTokTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC2B73EA2B791C6E00C83756 /* TokTokUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC2B73FB2B791C6E00C83756 /* Build configuration list for PBXNativeTarget "TokTokUITests" */;
+			buildPhases = (
+				CC2B73E72B791C6E00C83756 /* Sources */,
+				CC2B73E82B791C6E00C83756 /* Frameworks */,
+				CC2B73E92B791C6E00C83756 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC2B73ED2B791C6E00C83756 /* PBXTargetDependency */,
+			);
+			name = TokTokUITests;
+			productName = TokTokUITests;
+			productReference = CC2B73EB2B791C6E00C83756 /* TokTokUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC2B73C92B791C6D00C83756 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					CC2B73D02B791C6D00C83756 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					CC2B73E02B791C6E00C83756 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CC2B73D02B791C6D00C83756;
+					};
+					CC2B73EA2B791C6E00C83756 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = CC2B73D02B791C6D00C83756;
+					};
+				};
+			};
+			buildConfigurationList = CC2B73CC2B791C6D00C83756 /* Build configuration list for PBXProject "TokTok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC2B73C82B791C6D00C83756;
+			productRefGroup = CC2B73D22B791C6D00C83756 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC2B73D02B791C6D00C83756 /* TokTok */,
+				CC2B73E02B791C6E00C83756 /* TokTokTests */,
+				CC2B73EA2B791C6E00C83756 /* TokTokUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC2B73CF2B791C6D00C83756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B73DC2B791C6E00C83756 /* Preview Assets.xcassets in Resources */,
+				CC2B73D92B791C6E00C83756 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B73DF2B791C6E00C83756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B73E92B791C6E00C83756 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC2B73CD2B791C6D00C83756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B73D72B791C6D00C83756 /* ContentView.swift in Sources */,
+				CC2B73D52B791C6D00C83756 /* TokTokApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B73DD2B791C6E00C83756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B73E62B791C6E00C83756 /* TokTokTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC2B73E72B791C6E00C83756 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC2B73F22B791C6E00C83756 /* TokTokUITestsLaunchTests.swift in Sources */,
+				CC2B73F02B791C6E00C83756 /* TokTokUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC2B73E32B791C6E00C83756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2B73D02B791C6D00C83756 /* TokTok */;
+			targetProxy = CC2B73E22B791C6E00C83756 /* PBXContainerItemProxy */;
+		};
+		CC2B73ED2B791C6E00C83756 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC2B73D02B791C6D00C83756 /* TokTok */;
+			targetProxy = CC2B73EC2B791C6E00C83756 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CC2B73F32B791C6E00C83756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CC2B73F42B791C6E00C83756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC2B73F62B791C6E00C83756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokTok/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KJ8L6S24U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromcdp.TokTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC2B73F72B791C6E00C83756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TokTok/Preview Content\"";
+				DEVELOPMENT_TEAM = 7KJ8L6S24U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromcdp.TokTok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CC2B73F92B791C6E00C83756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KJ8L6S24U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromcdp.TokTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokTok";
+			};
+			name = Debug;
+		};
+		CC2B73FA2B791C6E00C83756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KJ8L6S24U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromcdp.TokTokTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TokTok.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TokTok";
+			};
+			name = Release;
+		};
+		CC2B73FC2B791C6E00C83756 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KJ8L6S24U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromcdp.TokTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokTok;
+			};
+			name = Debug;
+		};
+		CC2B73FD2B791C6E00C83756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7KJ8L6S24U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pedromcdp.TokTokUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TokTok;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC2B73CC2B791C6D00C83756 /* Build configuration list for PBXProject "TokTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B73F32B791C6E00C83756 /* Debug */,
+				CC2B73F42B791C6E00C83756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2B73F52B791C6E00C83756 /* Build configuration list for PBXNativeTarget "TokTok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B73F62B791C6E00C83756 /* Debug */,
+				CC2B73F72B791C6E00C83756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2B73F82B791C6E00C83756 /* Build configuration list for PBXNativeTarget "TokTokTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B73F92B791C6E00C83756 /* Debug */,
+				CC2B73FA2B791C6E00C83756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC2B73FB2B791C6E00C83756 /* Build configuration list for PBXNativeTarget "TokTokUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC2B73FC2B791C6E00C83756 /* Debug */,
+				CC2B73FD2B791C6E00C83756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC2B73C92B791C6D00C83756 /* Project object */;
+}
