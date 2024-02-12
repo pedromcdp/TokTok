@@ -11,7 +11,8 @@ import SwiftUI
 struct TokTokApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MainTabView()
         }
     }
 }

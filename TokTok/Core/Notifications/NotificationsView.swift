@@ -7,12 +7,26 @@
 
 import SwiftUI
 
-struct NotificationView: View {
+struct NotificationsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack{
+            VStack {
+                Image(systemName: "bubble.middle.bottom")
+                    .resizable()
+                    .frame(width: 50, height: 50)
+                    .foregroundColor(.secondary)
+                    .padding(.bottom)
+                Text("No notifications to show")
+                    .fontWeight(.bold)
+                    .font(.title2)
+                    .foregroundStyle(.secondary)
+            }
+            .navigationTitle("Inbox")
+            .navigationBarTitleDisplayMode(.inline)
+        }
     }
 }
 
 #Preview {
-    NotificationView()
+    NotificationsView()
 }
